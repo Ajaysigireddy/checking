@@ -15,8 +15,7 @@ class LoginPage extends StatelessWidget {
           return SingleChildScrollView(
             child: Column(
               children: [
-                InternetConnectionCheck(
-                    connectionStatusNotifier: connectionStatusNotifier),
+               
                 Center(
                   child: Container(
                     padding: EdgeInsets.all(20.0),
